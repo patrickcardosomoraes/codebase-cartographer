@@ -1,3 +1,5 @@
 node_modules/
 cli/dist/
 .cartographer/
+cli/README.md
+cli/LICENSE
