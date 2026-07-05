@@ -1,0 +1,26 @@
+{
+  "name": "codebase-cartographer",
+  "version": "0.1.0",
+  "description": "Generate a living MAP.md of any codebase — module tree, dependency graph, churn hotspots — designed for AI coding agents. Deterministic skeleton by CLI, semantic descriptions by your agent.",
+  "keywords": ["ai", "agents", "codebase", "map", "claude", "cursor", "llm", "context", "developer-tools"],
+  "license": "MIT",
+  "author": "Patrick Cardoso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickcardosomoraes/codebase-cartographer"
+  },
+  "type": "module",
+  "bin": { "codebase-cartographer": "./dist/index.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "tsc -p tsconfig.test.json && node --test .cartographer/test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
