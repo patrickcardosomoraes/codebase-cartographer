@@ -1,6 +1,6 @@
 {
   "name": "codebase-cartographer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate a living MAP.md of any codebase — module tree, dependency graph, churn hotspots — designed for AI coding agents. Deterministic skeleton by CLI, semantic descriptions by your agent.",
   "keywords": [
     "ai",
