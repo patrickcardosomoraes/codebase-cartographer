@@ -1,5 +1,9 @@
 # codebase-cartographer
 
+[![npm version](https://img.shields.io/npm/v/codebase-cartographer.svg)](https://www.npmjs.com/package/codebase-cartographer)
+[![npm downloads](https://img.shields.io/npm/dm/codebase-cartographer.svg)](https://www.npmjs.com/package/codebase-cartographer)
+[![license: MIT](https://img.shields.io/npm/l/codebase-cartographer.svg)](./LICENSE)
+
 **A living map of your codebase, built for AI coding agents.**
 
 `codebase-cartographer` generates and maintains a `MAP.md` at your repo root containing the module tree, dependency graph, entry points, conventions, and git churn hotspots. AI agents read the map *before* exploring your repo — replacing dozens of exploration tool calls with a single file read. Less tokens, less latency, and agents that edit the right file on the first try.
